@@ -10,12 +10,12 @@ from selenium.webdriver.support.select import Select
 
 
 class Util(object):
-    def firefox_start(self, url):
+    def browser_start(self, url):
         self.driver = webdriver.Chrome()
         self.driver.get(url)
         self.driver.maximize_window()
 
-    def firefox_close(self):
+    def browser_quit(self):
         self.sleep(Enum.two_time)
         self.driver.quit()
 
@@ -24,17 +24,6 @@ class Util(object):
 
     def timeImplay(self,number):
         self.driver.implicitly_wait(number)
-
-    def mouse_move(self, xpath):
-        ActionChains(self.driver).move_to_element(self.find_xpath(xpath)).perform()
-
-    # 按照索引查找
-    def selectIndex(self, xpath, number):
-        Select(self.find_xpath(xpath)).select_by_index(number)
-        self.click_xpath(xpath)
-
-    def key_enter(self, xpath):
-        self.find_xpath(xpath).send_keys(Keys.ENTER)
 
     def find_id(self, id):
         ids = (By.ID, id)
@@ -50,12 +39,9 @@ class Util(object):
     def text_id(self, id):
         return self.find_id(id).text
 
-    def title_id(self):
-        return self.driver.title
-
     def find_xpath(self, xpath):
-        ids = (By.XPATH, xpath)
-        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(ids))
+        xpaths = (By.XPATH, xpath)
+        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(xpaths))
         return self.driver.find_element_by_xpath(xpath)
 
     def click_xpath(self, xpath):
@@ -68,8 +54,8 @@ class Util(object):
         return self.find_xpath(xpath).text
 
     def find_classname(self, classname):
-        ids = (By.CLASS_NAME, classname)
-        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(ids))
+        classnames = (By.CLASS_NAME, classname)
+        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(classnames))
         return self.driver.find_element_by_class_name(classname)
 
     def click_classname(self, classname):
@@ -82,8 +68,8 @@ class Util(object):
         return self.find_classname(classname).text
 
     def find_selector(self, selector):
-        ids = (By.CSS_SELECTOR, selector)
-        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(ids))
+        selectors = (By.CSS_SELECTOR, selector)
+        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(selectors))
         return self.driver.find_element_by_css_selector(selector)
 
     def click_selector(self, selector):
@@ -96,8 +82,8 @@ class Util(object):
         return self.find_selector(selector).text
 
     def find_tag(self, tag):
-        ids = (By.TAG_NAME, tag)
-        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(ids))
+        tags = (By.TAG_NAME, tag)
+        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(tags))
         return self.driver.find_element_by_tag_name(tag)
 
     def click_tag(self, tag):
@@ -110,8 +96,8 @@ class Util(object):
         return self.find_tag(tag).text
 
     def find_linktext(self, link):
-        ids = (By.LINK_TEXT, link)
-        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(ids))
+        texts = (By.LINK_TEXT, link)
+        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(texts))
         return self.driver.find_element_by_link_text(link)
 
     def click_linktext(self, link):
@@ -124,8 +110,8 @@ class Util(object):
         return self.find_linktext(link).text
 
     def find_partial(self, partial):
-        ids = (By.PARTIAL_LINK_TEXT, partial)
-        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(ids))
+        partials = (By.PARTIAL_LINK_TEXT, partial)
+        WebDriverWait(self.driver, Enum.twenty_time, Enum.half_time).until(ec.presence_of_element_located(partials))
         return self.driver.find_element_by_partial_link_text(partial)
 
     def click_partial(self, partial):
@@ -137,11 +123,11 @@ class Util(object):
     def text_partial(self, partial):
         return self.find_partial(partial).text
 
-    def get_attribute_id(self, id, attributes):
-        self.driver.find_element_by_id(id).get_attribute(attributes)
+    def get_attribute_id(self, id):
+        self.driver.find_element_by_id(id).get_attribute()
 
-    def get_attribute_xpath(self, xpath, attributes):
-        self.driver.find_element_by_xpath(xpath).get_attribute(attributes)
+    def get_attribute_xpath(self, xpath):
+        self.driver.find_element_by_xpath(xpath).get_attribute()
 
     def switch_to_frame_id(self, id):
         self.driver.switch_to_frame(self.find_id(id))
@@ -276,22 +262,9 @@ class Util(object):
         self.url = self.driver.current_url
         return self.url
 
-    def ass(self):
-        self.picture = self.driver.get_screenshot_as_png()
-        print("%s", self.picture)
-
-    def gettitle(self):
-        return self.driver.title
-
-    def switch_alert(self):
-        self.driver.switch_to_alert()
-
-    # 登陆操作
-    def login_in(self):
-        self.send_keys_id('login-tel', u"15011554977")
-        self.send_keys_id('login-password', u"123456")
-        self.click_xpath('//*[@id="webapp"]/div/div[3]/div[2]/div[1]/div[3]/form/div[4]/button')
-
+    def get_title(self):
+        self.title = self.driver.title
+        return self.title
 
 class Enum(IntEnum):
     point_one_time = 0.1
