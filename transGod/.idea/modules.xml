@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/atman_test_transgod.iml" filepath="$PROJECT_DIR$/.idea/atman_test_transgod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/transGod.iml" filepath="$PROJECT_DIR$/.idea/transGod.iml" />
     </modules>
   </component>
 </project>
