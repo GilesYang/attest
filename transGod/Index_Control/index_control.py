@@ -18,3 +18,11 @@ class IndexControl(object):
         self.team_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(2) > a'
         self.util.click_selector(self.team_selector)
 
+    def topbar_apimarket(self):
+        self.api_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(3) > a'
+        self.util.click_selector(self.api_selector)
+
+    def topbar_trados(self):
+        self.trados_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(4) > a'
+        self.util.click_selector(self.trados_selector)
+
