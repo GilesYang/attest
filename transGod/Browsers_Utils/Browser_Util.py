@@ -266,6 +266,9 @@ class Util(object):
         self.title = self.driver.title
         return self.title
 
+    def url_back(self):
+        self.driver.back()
+
 class Enum(IntEnum):
     point_one_time = 0.1
     half_time = 0.5
