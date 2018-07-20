@@ -28,7 +28,7 @@ class IndexUnit(unittest.TestCase):
         """topbar点击personal跳转url"""
         try:
             self.index.topbar_personal()
-            time.sleep(2)
+            self.util.timeImplay(10)
             self.current_url = self.util.current_url()
             print(self.current_url)
             self.personal_login_url = 'https://transgod.cn/ucenter/main/login'
@@ -42,7 +42,7 @@ class IndexUnit(unittest.TestCase):
         """topbar点击team跳转url"""
         try:
             self.index.topbar_team()
-            time.sleep(2)
+            self.util.timeImplay(10)
             self.current_url = self.util.current_url()
             print(self.current_url)
             self.team_login_url = 'http://team.transgod.cn/cooperate/user/login'
@@ -56,7 +56,7 @@ class IndexUnit(unittest.TestCase):
         """topbar点击api跳转url"""
         try:
             self.index.topbar_apimarket()
-            time.sleep(2)
+            self.util.timeImplay(10)
             self.current_window = self.util.current_window()
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
@@ -72,13 +72,71 @@ class IndexUnit(unittest.TestCase):
         """topbar点击trados跳转url"""
         try:
             self.index.topbar_trados()
-            time.sleep(2)
+            self.util.timeImplay(10)
             self.current_window = self.util.current_window()
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
             self.trados_url = 'http://team.transgod.cn/trados'
             self.assertEqual(self.new_url, self.trados_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_topbar_aboutus(self):
+        """topbar点击about us跳转url"""
+        try:
+            self.index.topbar_about()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.atman_url = 'http://atman.ai/'
+            self.assertEqual(self.new_url, self.atman_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_topbar_help(self):
+        """topbar点击help跳转url"""
+        try:
+            self.index.topbar_help()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.help_url = 'https://intercom.help/transgod'
+            self.assertEqual(self.new_url, self.help_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_topbar_login(self):
+        """topbar点击login跳转url"""
+        try:
+            self.index.topbar_login()
+            self.util.timeImplay(10)
+            self.current_url = self.util.current_url()
+            print(self.current_url)
+            self.assertEqual(self.current_url, 'https://transgod.cn/ucenter/main/login')
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_topbar_register(self):
+        """topbar点击register跳转url"""
+        try:
+            self.index.topbar_register()
+            self.util.timeImplay(10)
+            self.current_url = self.util.current_url()
+            print(self.current_url)
+            self.assertEqual(self.current_url, 'https://transgod.cn/ucenter/main/reg')
         except Exception as msg:
             print(msg)
         else:

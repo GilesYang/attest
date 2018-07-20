@@ -43,7 +43,7 @@
     <SUITE FILE_PATH="coverage/transGod$Unittests_in_TransgodInfoUnit_py.coverage" NAME="Unittests in TransgodInfoUnit.py Coverage Results" MODIFIED="1527060292594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$fang.coverage" NAME="fang Coverage Results" MODIFIED="1520316928796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Register_Unit_RegisterUnit_test_email_register_c_a.coverage" NAME="Unittests for Register_Unit.RegisterUnit.test_email_register_c_a Coverage Results" MODIFIED="1524128896736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
-    <SUITE FILE_PATH="coverage/transGod$suit.coverage" NAME="suit Coverage Results" MODIFIED="1532056381521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Suit" />
+    <SUITE FILE_PATH="coverage/transGod$suit.coverage" NAME="suit Coverage Results" MODIFIED="1532058326269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Suit" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Page_Unit_Unit_test_page_g_b.coverage" NAME="Unittests for Page_Unit.Unit.test_page_g_b Coverage Results" MODIFIED="1520576335269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_LoginUnit_test_login_a2.coverage" NAME="Unittests for Login_Unit.LoginUnit.test_login_a2 Coverage Results" MODIFIED="1526290124954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_File_Unit_Unit.coverage" NAME="Unittests for File_Unit.Unit Coverage Results" MODIFIED="1520854477153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
@@ -159,7 +159,7 @@
             <entry file="file://$PROJECT_DIR$/Units/index_unit.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="479">
-                  <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+                  <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -170,8 +170,8 @@
           <file leaf-file-name="suit.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Suit/suit.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state relative-caret-position="420">
+                  <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -186,8 +186,8 @@
           <file leaf-file-name="Browser_Util.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Browsers_Utils/Browser_Util.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="619">
-                  <caret line="266" column="25" lean-forward="true" selection-start-line="266" selection-start-column="25" selection-end-line="266" selection-end-column="25" />
+                <state relative-caret-position="-1458">
+                  <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
                   </folding>
@@ -198,8 +198,8 @@
           <file leaf-file-name="index_control.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Index_Control/index_control.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="520">
-                  <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+                <state relative-caret-position="465">
+                  <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -338,14 +338,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Suit" />
       <recent name="$PROJECT_DIR$/TransPage/Pagem" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/TransLogin/Loginm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -779,8 +779,8 @@
     <entry file="file://$PROJECT_DIR$/Firefox_Utils/Browser_Util.py" />
     <entry file="file://$PROJECT_DIR$/Browsers_Utils/Browser_Util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="266" column="25" lean-forward="true" selection-start-line="266" selection-start-column="25" selection-end-line="266" selection-end-column="25" />
+        <state relative-caret-position="-1458">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -789,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Suit/suit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -799,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index_Control/index_control.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        <state relative-caret-position="465">
+          <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -808,7 +808,7 @@
     <entry file="file://$PROJECT_DIR$/Units/index_unit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
-          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

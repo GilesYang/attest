@@ -26,3 +26,18 @@ class IndexControl(object):
         self.trados_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(4) > a'
         self.util.click_selector(self.trados_selector)
 
+    def topbar_about(self):
+        self.about_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(5) > a'
+        self.util.click_selector(self.about_selector)
+
+    def topbar_help(self):
+        self.help_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(6) > a'
+        self.util.click_selector(self.help_selector)
+
+    def topbar_login(self):
+        self.login_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
+        self.util.click_selector(self.login_selector)
+
+    def topbar_register(self):
+        self.register_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.trans-btn-classic.pull-right'
+        self.util.click_selector(self.register_selector)
