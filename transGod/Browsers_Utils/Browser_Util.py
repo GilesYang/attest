@@ -11,7 +11,9 @@ from selenium.webdriver.support.select import Select
 
 class Util(object):
     def browser_start(self, url):
-        self.driver = webdriver.Chrome()
+        self.option = webdriver.ChromeOptions()
+        self.option.add_argument('headless')
+        self.driver = webdriver.Chrome(chrome_options=self.option)
         self.driver.get(url)
         self.driver.maximize_window()
 

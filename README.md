@@ -3,4 +3,5 @@
 	Unittest
 	HTMLTestRunner created report 
 	Jenkins On Tomcat 8.0(jdk version:1.8)
-	Google Chrome = disable-infobars
+	# google chrome 静默模式
+	Google Chrome_option = headless
