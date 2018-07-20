@@ -18,5 +18,5 @@ suit.addTest(unittest.makeSuite(index_unit.IndexUnit))
 # 出报告
 files = os.getcwd() +"/TransGodTest.html"
 filename = open(files, "wb")
-runner = HTMLTestRunner.HTMLTestRunner(stream=filename, title=u"TransGod Personal", description="Selenium Case")
+runner = HTMLTestRunner.HTMLTestRunner(stream=filename, title=u"TransGod Personal Test Report", description="Selenium Case v2.0")
 runner.run(suit)

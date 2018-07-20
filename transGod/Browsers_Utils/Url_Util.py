@@ -3,7 +3,7 @@
 class Url(object):
     HOMEPAGE_URL = "https://transgod.cn"
 
-    LOGIN_URL = "https://transgod.cn/ucenter/main/login"
+    PERSONAL_LOGIN_URL = "https://transgod.cn/ucenter/main/login"
 
     TRANSTEXT_URL = "https://transgod.cn/opt/trans?type=text"
 

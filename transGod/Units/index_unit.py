@@ -4,7 +4,11 @@ from Index_Control import index_control
 import time
 
 
+# global volumes
+
 Exceptions = "No Exceptions!"
+
+
 class IndexUnit(unittest.TestCase):
     @classmethod
     def setUpClass(self):
@@ -214,6 +218,20 @@ class IndexUnit(unittest.TestCase):
             self.current_url = 'http://team.transgod.cn/cooperate/user/login'
             self.assertEqual(self.new_url, self.current_url)
 
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_topbar_personal_login(self):
+        """登陆状态点击topbar个人跳转url"""
+        try:
+            self.index.topbar_personal_login()
+            self.util.timeImplay(10)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'https://transgod.cn/project'
+            self.assertEqual(self.new_url, self.current_url)
         except Exception as msg:
             print(msg)
         else:

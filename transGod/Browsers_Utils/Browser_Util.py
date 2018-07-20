@@ -269,6 +269,13 @@ class Util(object):
     def url_back(self):
         self.driver.back()
 
+    # personal login
+    def login_personal(self, mobile, password):
+        self.send_keys_selector('#login-tel', mobile)
+        self.send_keys_selector('#login-password', password)
+        self.click_selector('#webapp > div > div.uc-bg > div.uc-bg-top > div.uc-login-box > div.login-form > form > div:nth-child(4) > button')
+
+
 class Enum(IntEnum):
     point_one_time = 0.1
     half_time = 0.5
@@ -280,3 +287,5 @@ class Enum(IntEnum):
     twenty_time = 20
     fifty_time = 50
     hundred_time = 100
+
+

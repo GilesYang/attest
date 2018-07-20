@@ -1,6 +1,5 @@
 from Browsers_Utils import Browser_Util, Url_Util
 
-
 class IndexControl(object):
     def __init__(self, util):
         self.util = util
@@ -61,5 +60,20 @@ class IndexControl(object):
     def engine_personal(self):
         self.engine_personal_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div.support-item.col-xs-2.hot > p > a > strong'
         self.util.click_selector(self.engine_personal_selector)
+
+    def topbar_personal_login(self):
+        self.login_personal_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(1) > a'
+        self.login_button_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
+        self.util.click_selector(self.login_button_selector)
+        self.util.login_personal(u'15011554977', u'123456')
+        if self.util.current_url() == 'https://transgod.cn':
+            print("The Url is True!")
+            self.util.click_selector(self.login_personal_selector)
+        else:
+            print("The Url is Error!")
+
+
+
+
 
 
