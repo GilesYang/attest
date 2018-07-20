@@ -13,7 +13,10 @@ class Report(object):
         # 出报告
         self.files = os.getcwd()+"/Test_Report.html"
         self.filename = open(self.files, 'wb')
-        self.runner = HTMLTestRunner.HTMLTestRunner(stream=filename, title=u"TransGod Personal Test Report", description="Selenium Case v2.0")
+        self.runner = HTMLTestRunner.HTMLTestRunner(stream=self.filename, title=u"TransGod Personal Test Report",
+                                                    description="Selenium Case v2.0"
+                                                                "Unittest+HTMLTestRunner"
+                                                                "Google Chrome = headless")
         self.runner.run(self.suit)
 if __name__ == '__main__':
     R = Report()
