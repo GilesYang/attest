@@ -41,3 +41,25 @@ class IndexControl(object):
     def topbar_register(self):
         self.register_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.trans-btn-classic.pull-right'
         self.util.click_selector(self.register_selector)
+
+    def trans(self):
+        self.trans_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div:nth-child(1) > p > a > strong'
+        self.util.click_selector(self.trans_selector)
+
+    def trans_file(self):
+        self.trans_file_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div:nth-child(2) > p > a > strong'
+        self.util.click_selector(self.trans_file_selector)
+
+    def personal_cat(self):
+        self.personal_cat_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div:nth-child(3) > p > a > strong'
+        self.util.click_selector(self.personal_cat_selector)
+
+    def team_cat(self):
+        self.team_cat_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div:nth-child(4) > p > a > strong'
+        self.util.click_selector(self.team_cat_selector)
+
+    def engine_personal(self):
+        self.engine_personal_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div.support-item.col-xs-2.hot > p > a > strong'
+        self.util.click_selector(self.engine_personal_selector)
+
+

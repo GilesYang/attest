@@ -141,3 +141,80 @@ class IndexUnit(unittest.TestCase):
             print(msg)
         else:
             print(Exceptions)
+
+    def test_trans(self):
+        """未登录状态,点击翻译文字跳转url"""
+        try:
+            self.index.trans()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'https://transgod.cn/opt/trans'
+            self.assertEqual(self.new_url, self.current_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_trans_file(self):
+        """未登录状态,点击翻译文件跳转url"""
+        try:
+            self.index.trans_file()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'https://transgod.cn/opt/trans?type=file'
+            self.assertEqual(self.new_url, self.current_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_personal_cat(self):
+        """未登录状态,点击个人版cat跳转url"""
+        try:
+            self.index.personal_cat()
+            self.util.timeImplay(10)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'https://transgod.cn/ucenter/main/login'
+            self.assertEqual(self.new_url, self.current_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_team_cat(self):
+        """未登录状态,点击团队版cat跳转url"""
+        try:
+            self.index.team_cat()
+            self.util.timeImplay(10)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'http://team.transgod.cn/cooperate/user/login'
+            self.assertEqual(self.new_url, self.current_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_engine_personal(self):
+        """未登录状态点击engine跳转url"""
+        try:
+            self.index.engine_personal()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'http://team.transgod.cn/cooperate/user/login'
+            self.assertEqual(self.new_url, self.current_url)
+
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
