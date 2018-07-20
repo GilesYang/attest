@@ -236,3 +236,34 @@ class IndexUnit(unittest.TestCase):
             print(msg)
         else:
             print(Exceptions)
+
+    def test_topbar_team_login(self):
+        """登陆状态点击topbar团队跳转url"""
+        try:
+            self.index.topbar_team_login()
+            self.util.timeImplay(10)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'https://transgod.cn/cooperate/user/login'
+            self.assertEqual(self.new_url, self.current_url)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_trans_login(self):
+        """登陆状态点击翻译文字跳转url"""
+        try:
+            self.index.trans_login()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.topbar_logo_selector = '#webapp > div > div:nth-child(1) > div > header > div > div > a > span'
+            self.logo_text = self.util.text_selector(self.topbar_logo_selector)
+            print(self.logo_text)
+            self.current_text = "TransGod"
+            self.assertEqual(self.logo_text, self.current_text)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)

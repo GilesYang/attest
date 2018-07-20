@@ -72,6 +72,26 @@ class IndexControl(object):
         else:
             print("The Url is Error!")
 
+    def topbar_team_login(self):
+        self.login_team_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(2) > a'
+        self.util.click_selector(self.login_team_selector)
+        self.util.login_team(u'15011554977', u'123456')
+        if self.util.current_url() == 'https://transgod.cn':
+            print("The Url is Ture!")
+            self.util.click_selector(self.login_team_selector)
+        else:
+            print("The Url is Error!")
+
+    def trans_login(self):
+        self.trans_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div:nth-child(1) > p > a > strong'
+        self.login_button_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
+        self.util.click_selector(self.login_button_selector)
+        self.util.login_personal(u'15011554977', u'123456')
+        if self.util.current_url() == 'https://transgod.cn':
+            print("The Url is True!")
+            self.util.click_selector(self.trans_selector)
+        else:
+            print("The Url is Error!")
 
 
 

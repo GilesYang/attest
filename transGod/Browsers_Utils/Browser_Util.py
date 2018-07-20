@@ -277,6 +277,12 @@ class Util(object):
         self.send_keys_selector('#login-password', password)
         self.click_selector('#webapp > div > div.uc-bg > div.uc-bg-top > div.uc-login-box > div.login-form > form > div:nth-child(4) > button')
 
+    # team login
+    def login_team(self, mobile, password):
+        self.send_keys_xpath('//*[@id="coop-login"]', mobile)
+        self.send_keys_xpath('//*[@id="coop-pass"]', password)
+        self.click_xpath('//*[@id="webapp"]/div/div[2]/div[2]/div[2]/div[2]/form/button')
+
 
 class Enum(IntEnum):
     point_one_time = 0.1
