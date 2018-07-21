@@ -267,3 +267,11 @@ class IndexUnit(unittest.TestCase):
             print(msg)
         else:
             print(Exceptions)
+
+    def test_trans_file_login(self):
+        """登陆状态点击翻译文件跳转url"""
+        try:
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)

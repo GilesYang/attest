@@ -43,12 +43,7 @@ try:
             'zhanglibin@atman360.com',
             'liuwei@atman360.com',
             'zbwyn@126.com',
-            'renfuyang@atman360.com',
-            'songkai@atman360.com',
-            'renlei@atman360.com',
-            'shaoshuai@atman360.com',
-            'zhangaihu@atman360.com',
-            'chenpengyu@atman360.com'
+            'shaoshuai@atman360.com'
         ]
     send_email('smtp.163.com', '15764512789@163.com', 'qwerqwer123456', receiveAddresses, subject, content)
 except Exception as error:
