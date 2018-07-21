@@ -104,6 +104,17 @@ class IndexControl(object):
         else:
             print("The Url is Error!")
 
+    def personal_cat_login(self):
+        self.personal_cat_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div:nth-child(3) > p > a > strong'
+        self.login_button_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
+        self.util.click_selector(self.login_button_selector)
+        self.util.login_personal(u'111', u'111')
+        if self.util.current_url() == 'https://transgod.cn':
+            print("The Url is True!")
+            self.util.click_selector(self.personal_cat_selector)
+        else:
+            print("The Url is Error!")
+
 
 
 

@@ -35,8 +35,8 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.current_url = self.util.current_url()
             print(self.current_url)
-            self.personal_login_url = 'https://transgod.cn/ucenter/main/login'
-            self.assertEqual(self.current_url, self.personal_login_url)
+            # self.personal_login_url = 'https://transgod.cn/ucenter/main/login'
+            self.assertEqual(self.current_url, self.url.PERSONAL_LOGIN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -49,8 +49,8 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.current_url = self.util.current_url()
             print(self.current_url)
-            self.team_login_url = 'http://team.transgod.cn/cooperate/user/login'
-            self.assertEqual(self.current_url, self.team_login_url)
+            # self.team_login_url = 'http://team.transgod.cn/cooperate/user/login'
+            self.assertEqual(self.current_url, self.url.TEAM_LOGIN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -65,8 +65,7 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.api_url = 'https://market.aliyun.com/products/57124001/cmapi028086.html#sku=yuncode2208600000'
-            self.assertEqual(self.new_url, self.api_url)
+            self.assertEqual(self.new_url, self.url.ALICLOUD_MARKET_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -81,8 +80,8 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.trados_url = 'http://team.transgod.cn/trados'
-            self.assertEqual(self.new_url, self.trados_url)
+            # self.trados_url = 'http://team.transgod.cn/trados'
+            self.assertEqual(self.new_url, self.url.TRADOS_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -97,8 +96,8 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.atman_url = 'http://atman.ai/'
-            self.assertEqual(self.new_url, self.atman_url)
+            # self.atman_url = 'http://atman.ai/'
+            self.assertEqual(self.new_url, self.url.ATMAN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -113,8 +112,8 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.help_url = 'https://intercom.help/transgod'
-            self.assertEqual(self.new_url, self.help_url)
+            # self.help_url = 'https://intercom.help/transgod'
+            self.assertEqual(self.new_url, self.url.HELP_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -127,7 +126,7 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.current_url = self.util.current_url()
             print(self.current_url)
-            self.assertEqual(self.current_url, 'https://transgod.cn/ucenter/main/login')
+            self.assertEqual(self.current_url, self.url.PERSONAL_LOGIN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -140,7 +139,7 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.current_url = self.util.current_url()
             print(self.current_url)
-            self.assertEqual(self.current_url, 'https://transgod.cn/ucenter/main/reg')
+            self.assertEqual(self.current_url, self.url.PERSONAL_REGISTER_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -155,7 +154,6 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = 'https://transgod.cn/opt/trans'
             self.assertEqual(self.new_url, self.current_url)
         except Exception as msg:
             print(msg)
@@ -171,8 +169,8 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = 'https://transgod.cn/opt/trans?type=file'
-            self.assertEqual(self.new_url, self.current_url)
+            # self.current_url = 'https://transgod.cn/opt/trans?type=file'
+            self.assertEqual(self.new_url, self.url.TRANSFILE_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -185,8 +183,8 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = 'https://transgod.cn/ucenter/main/login'
-            self.assertEqual(self.new_url, self.current_url)
+            # self.current_url = 'https://transgod.cn/ucenter/main/login'
+            self.assertEqual(self.new_url, self.url.PERSONAL_LOGIN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -199,8 +197,8 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = 'http://team.transgod.cn/cooperate/user/login'
-            self.assertEqual(self.new_url, self.current_url)
+            # self.current_url = 'http://team.transgod.cn/cooperate/user/login'
+            self.assertEqual(self.new_url, self.url.TEAM_LOGIN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -215,9 +213,8 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = 'http://team.transgod.cn/cooperate/user/login'
-            self.assertEqual(self.new_url, self.current_url)
-
+            # self.current_url = 'http://team.transgod.cn/cooperate/user/login'
+            self.assertEqual(self.new_url, self.url.TEAM_LOGIN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -230,8 +227,8 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = 'https://transgod.cn/project'
-            self.assertEqual(self.new_url, self.current_url)
+            # self.current_url = 'https://transgod.cn/project'
+            self.assertEqual(self.new_url, self.url.PERSONAL_PROJECT_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -244,8 +241,8 @@ class IndexUnit(unittest.TestCase):
             self.util.timeImplay(10)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = 'https://transgod.cn/cooperate/user/login'
-            self.assertEqual(self.new_url, self.current_url)
+            # self.current_url = 'https://transgod.cn/cooperate/user/login'
+            self.assertEqual(self.new_url, self.url.TEAM_LOGIN_URL)
         except Exception as msg:
             print(msg)
         else:
@@ -271,6 +268,35 @@ class IndexUnit(unittest.TestCase):
     def test_trans_file_login(self):
         """登陆状态点击翻译文件跳转url"""
         try:
+            self.index.trans_file_login()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = 'https://transgod.cn/opt/trans?type=file'
+            if self.new_url == self.current_url:
+                self.topbar_logo_selector = '#webapp > div > div:nth-child(1) > div > header > div > div > a > span'
+                self.logo_text = self.util.text_selector(self.topbar_logo_selector)
+                self.current_text = "TransGod"
+                self.assertEqual(self.current_text, self.logo_text)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_personal_cat_login(self):
+        """登陆状态下,点击个人版Cat跳转url"""
+        try:
+            self.index.personal_cat_login()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.current_url = ''
+            pass
+
         except Exception as msg:
             print(msg)
         else:
