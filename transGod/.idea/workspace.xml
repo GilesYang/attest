@@ -43,7 +43,7 @@
     <SUITE FILE_PATH="coverage/transGod$Unittests_in_TransgodInfoUnit_py.coverage" NAME="Unittests in TransgodInfoUnit.py Coverage Results" MODIFIED="1527060292594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$fang.coverage" NAME="fang Coverage Results" MODIFIED="1520316928796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Register_Unit_RegisterUnit_test_email_register_c_a.coverage" NAME="Unittests for Register_Unit.RegisterUnit.test_email_register_c_a Coverage Results" MODIFIED="1524128896736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
-    <SUITE FILE_PATH="coverage/transGod$suit.coverage" NAME="suit Coverage Results" MODIFIED="1532340976479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Suit" />
+    <SUITE FILE_PATH="coverage/transGod$suit.coverage" NAME="suit Coverage Results" MODIFIED="1532351644686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Suit" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Page_Unit_Unit_test_page_g_b.coverage" NAME="Unittests for Page_Unit.Unit.test_page_g_b Coverage Results" MODIFIED="1520576335269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_LoginUnit_test_login_a2.coverage" NAME="Unittests for Login_Unit.LoginUnit.test_login_a2 Coverage Results" MODIFIED="1526290124954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_File_Unit_Unit.coverage" NAME="Unittests for File_Unit.Unit Coverage Results" MODIFIED="1520854477153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
@@ -69,8 +69,10 @@
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_Unit_test_login_d.coverage" NAME="Unittests for Login_Unit.Unit.test_login_d Coverage Results" MODIFIED="1520999525867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Page_Unit_Unit_test_page_g.coverage" NAME="Unittests for Page_Unit.Unit.test_page_g Coverage Results" MODIFIED="1520575586171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_CreateProject_Unit_CreateProjectUnit_test_create_project_b.coverage" NAME="Unittests for CreateProject_Unit.CreateProjectUnit.test_create_project_b Coverage Results" MODIFIED="1526539647280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
+    <SUITE FILE_PATH="coverage/transGod$Unittests_for_register_unit_RegisterUnit_test_userNumber.coverage" NAME="Unittests for register_unit.RegisterUnit.test_userNumber Coverage Results" MODIFIED="1532351814198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_Unit_tearDown.coverage" NAME="Unittests for Login_Unit.Unit.tearDown Coverage Results" MODIFIED="1520243048985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Text_Unit_Unit_test_transtext_i.coverage" NAME="Unittests for Text_Unit.Unit.test_transtext_i Coverage Results" MODIFIED="1520839712157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
+    <SUITE FILE_PATH="coverage/transGod$Unittests_in_register_unit_py.coverage" NAME="Unittests in register_unit.py Coverage Results" MODIFIED="1532351710766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_Unit_test_registe_g.coverage" NAME="Unittests for Login_Unit.Unit.test_registe_g Coverage Results" MODIFIED="1520491371231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$SMTP_Email.coverage" NAME="SMTP_Email Coverage Results" MODIFIED="1532311928278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_Unit_test_login_i.coverage" NAME="Unittests for Login_Unit.Unit.test_login_i Coverage Results" MODIFIED="1521007338777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
@@ -133,7 +135,7 @@
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_Unit_test_email_d.coverage" NAME="Unittests for Login_Unit.Unit.test_email_d Coverage Results" MODIFIED="1520493675560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Help_Unit_Unit_test_help_a.coverage" NAME="Unittests for Help_Unit.Unit.test_help_a Coverage Results" MODIFIED="1520942563766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Project_Unit_Unit_test_projected_a.coverage" NAME="Unittests for Project_Unit.Unit.test_projected_a Coverage Results" MODIFIED="1521085167639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
-    <SUITE FILE_PATH="coverage/transGod$test_browser.coverage" NAME="test_browser Coverage Results" MODIFIED="1527058391385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/transGod$test_browser.coverage" NAME="test_browser Coverage Results" MODIFIED="1532346056686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Text_Unit_Unit_test_transtext_h.coverage" NAME="Unittests for Text_Unit.Unit.test_transtext_h Coverage Results" MODIFIED="1520932994785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Login_Unit_Unit_test_login_c.coverage" NAME="Unittests for Login_Unit.Unit.test_login_c Coverage Results" MODIFIED="1520999500776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
     <SUITE FILE_PATH="coverage/transGod$Unittests_for_Project_Unit_Unit_test_projected_f.coverage" NAME="Unittests for Project_Unit.Unit.test_projected_f Coverage Results" MODIFIED="1521100094193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Units" />
@@ -153,76 +155,14 @@
     <favorites_list name="transGod" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43504673">
+    <splitter split-orientation="horizontal" split-proportion="0.4516472">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="register_unit.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Units/register_unit.py">
+          <file leaf-file-name="register_control.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Register_Control/register_control.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="485">
-                  <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SMTP_Email.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SMTP_Email.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Alert_Message_Util.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Browsers_Utils/Alert_Message_Util.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Test_Report.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Suit/Test_Report.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-140">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="suit.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Suit/suit.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="transgod_source" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/transgod_source">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index_control.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Index_Control/index_control.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="381">
-                  <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+                <state relative-caret-position="400">
+                  <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -231,12 +171,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index_unit.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Units/index_unit.py">
+        <leaf>
+          <file leaf-file-name="register_unit.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Units/register_unit.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="434" column="13" lean-forward="false" selection-start-line="434" selection-start-column="13" selection-end-line="434" selection-end-column="13" />
+                <state relative-caret-position="411">
+                  <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="48" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -244,22 +184,49 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Url_Util.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Browsers_Utils/Url_Util.py">
+          <file leaf-file-name="Message_Util.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Browsers_Utils/Message_Util.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                <state relative-caret-position="180">
+                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="register_control.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Register_Control/register_control.py">
+          <file leaf-file-name="Alert_Message_Util.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Browsers_Utils/Alert_Message_Util.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+                <state relative-caret-position="80">
+                  <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Test_Report.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Suit/Test_Report.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="580">
+                  <caret line="329" column="13" lean-forward="true" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="13" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="e#9581#9587#1" expanded="true" />
+                    <element signature="e#9646#9652#1" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="suit.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Suit/suit.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="500">
+                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -282,12 +249,12 @@
       <find>footer</find>
       <find>test_personal_cat_login</find>
       <find>test_footer</find>
+      <find>topbar_trados</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Firefox_Utils/Email_Util.py" />
         <option value="$PROJECT_DIR$/Firefox_Utils/test.py" />
         <option value="$PROJECT_DIR$/fang.py" />
         <option value="$PROJECT_DIR$/TransLogin/Loginm/login.csv" />
@@ -320,24 +287,25 @@
         <option value="$PROJECT_DIR$/Units/ForgetPassword_Unit.py" />
         <option value="$PROJECT_DIR$/Units/CreateProject_Unit.py" />
         <option value="$PROJECT_DIR$/create_project/create_project_control/CreateProjectControl.py" />
-        <option value="$PROJECT_DIR$/test_browser.py" />
         <option value="$PROJECT_DIR$/Units/Login_Unit.py" />
         <option value="$PROJECT_DIR$/transgod_info/transgod_info_control/Transgod_Info_Control.py" />
         <option value="$PROJECT_DIR$/Units/TransgodInfoUnit.py" />
         <option value="$PROJECT_DIR$/Firefox_Utils/Browser_Util.py" />
         <option value="$PROJECT_DIR$/Moudles/Login_Moudles.py" />
-        <option value="$PROJECT_DIR$/Browsers_Utils/Browser_Util.py" />
         <option value="$PROJECT_DIR$/Suit/Test_Report.html" />
         <option value="$PROJECT_DIR$/SMTP_Email.py" />
-        <option value="$PROJECT_DIR$/Suit/suit.py" />
         <option value="$PROJECT_DIR$/Units/register_util.py" />
-        <option value="$PROJECT_DIR$/Register_Control/register_control.py" />
         <option value="$PROJECT_DIR$/Register_Control/register_alert_message.py" />
-        <option value="$PROJECT_DIR$/Browsers_Utils/Alert_Message_Util.py" />
-        <option value="$PROJECT_DIR$/Units/register_unit.py" />
         <option value="$PROJECT_DIR$/Index_Control/index_control.py" />
-        <option value="$PROJECT_DIR$/Browsers_Utils/Url_Util.py" />
         <option value="$PROJECT_DIR$/Units/index_unit.py" />
+        <option value="$PROJECT_DIR$/Browsers_Utils/Url_Util.py" />
+        <option value="$PROJECT_DIR$/test_browser.py" />
+        <option value="$PROJECT_DIR$/Browsers_Utils/Browser_Util.py" />
+        <option value="$PROJECT_DIR$/Suit/suit.py" />
+        <option value="$PROJECT_DIR$/Browsers_Utils/Alert_Message_Util.py" />
+        <option value="$PROJECT_DIR$/Browsers_Utils/Message_Util.py" />
+        <option value="$PROJECT_DIR$/Units/register_unit.py" />
+        <option value="$PROJECT_DIR$/Register_Control/register_control.py" />
       </list>
     </option>
   </component>
@@ -348,9 +316,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-177" />
-    <option name="y" value="-1347" />
-    <option name="width" value="2147" />
+    <option name="x" value="-313" />
+    <option name="y" value="-1139" />
+    <option name="width" value="2263" />
     <option name="height" value="992" />
   </component>
   <component name="ProjectView">
@@ -402,15 +370,6 @@
               <item name="transGod" type="462c0819:PsiDirectoryNode" />
               <item name="Units" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="transGod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="transGod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6.4 (/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -445,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.suit">
+  <component name="RunManager" selected="Python tests.Unittests for register_unit.RegisterUnit.test_userNumber">
     <configuration name="SMTP_Email" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -464,7 +423,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Unittests for index_unit.IndexUnit.test_topbar_personal" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for register_unit.RegisterUnit.test_userNumber" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -476,10 +435,10 @@
       <module name="transGod" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;index_unit.IndexUnit.test_topbar_personal&quot;" />
+      <option name="_new_target" value="&quot;register_unit.RegisterUnit.test_userNumber&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in TransgodInfoUnit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in register_unit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -491,7 +450,7 @@
       <module name="transGod" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Units/TransgodInfoUnit.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Units/register_unit.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -641,24 +600,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="index_control" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Index_Control" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="transGod" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Index_Control/index_control.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="suit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -677,20 +618,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="test_browser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="transGod" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_browser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.suit" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TransgodInfoUnit.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for index_unit.IndexUnit.test_topbar_personal" />
-      <item index="3" class="java.lang.String" itemvalue="Python.index_control" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SMTP_Email" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SMTP_Email" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_browser" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in register_unit.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for register_unit.RegisterUnit.test_userNumber" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.suit" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SMTP_Email" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for index_unit.IndexUnit.test_topbar_personal" />
-        <item index="3" class="java.lang.String" itemvalue="Python.index_control" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TransgodInfoUnit.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for register_unit.RegisterUnit.test_userNumber" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in register_unit.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.suit" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_browser" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SMTP_Email" />
       </list>
     </recent_temporary>
   </component>
@@ -708,12 +667,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_CreateProject_Unit_CreateProjectUnit_test_create_project_f2 - 2018.05.17 at 16h 47m 20s.xml">
-      <configuration name="Unittests for CreateProject_Unit.CreateProjectUnit.test_create_project_f2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TransgodInfoUnit_TransgodInfoUnit_test_transgod_info_b - 2018.05.23 at 15h 23m 36s.xml">
-      <configuration name="Unittests for TransgodInfoUnit.TransgodInfoUnit.test_transgod_info_b" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_TransgodInfoUnit_TransgodInfoUnit_test_transgod_info_b - 2018.05.23 at 15h 24m 31s.xml">
       <configuration name="Unittests for TransgodInfoUnit.TransgodInfoUnit.test_transgod_info_b" configurationId="tests" />
     </history-entry>
@@ -722,6 +675,9 @@
     </history-entry>
     <history-entry file="Unittests_for_index_unit_IndexUnit_test_topbar_personal - 2018.07.20 at 10h 14m 32s.xml">
       <configuration name="Unittests for index_unit.IndexUnit.test_topbar_personal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_register_unit_RegisterUnit_test_userNumber - 2018.07.23 at 21h 16m 59s.xml">
+      <configuration name="Unittests for register_unit.RegisterUnit.test_userNumber" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_TransgodInfoUnit_py - 2018.05.23 at 15h 08m 25s.xml">
       <configuration name="Unittests in TransgodInfoUnit.py" configurationId="tests" />
@@ -738,6 +694,9 @@
     <history-entry file="Unittests_in_TransgodInfoUnit_py - 2018.05.23 at 15h 25m 05s.xml">
       <configuration name="Unittests in TransgodInfoUnit.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_register_unit_py - 2018.07.23 at 21h 15m 15s.xml">
+      <configuration name="Unittests in register_unit.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,10 +708,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-177" y="-1347" width="2147" height="992" extended-state="0" />
+    <frame x="-313" y="-1139" width="2263" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3198861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10121457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20938215" sideWeight="0.5016611" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -774,6 +733,29 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20938215" sideWeight="0.5016611" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20938215" sideWeight="0.49833888" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1067869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09065156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2173913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -788,7 +770,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TransProject/__init__.py" />
     <entry file="file://$PROJECT_DIR$/TransText/Textc/TextControl.py" />
     <entry file="file://$PROJECT_DIR$/Suit/trangod_project.html" />
     <entry file="file://$PROJECT_DIR$/TransLogin/Loginm/login.csv" />
@@ -838,13 +819,6 @@
     <entry file="file://$PROJECT_DIR$/Units/CreateProject_Unit.py" />
     <entry file="file://$PROJECT_DIR$/Units/TransgodInfoUnit.py" />
     <entry file="file://$PROJECT_DIR$/Firefox_Utils/Url_Util.py" />
-    <entry file="file://$PROJECT_DIR$/test_browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Firefox_Utils/Browser_Util.py" />
     <entry file="file://$PROJECT_DIR$/Moudles/Login_Moudles.py" />
     <entry file="file://$PROJECT_DIR$/ghostdriver.log">
@@ -868,94 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Browsers_Utils/Browser_Util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Register_Control/register_alert_message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/register_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Browsers_Utils/Alert_Message_Util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SMTP_Email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Register_Control/register_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Suit/Test_Report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index_Control/index_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Browsers_Utils/Url_Util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/index_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="434" column="13" lean-forward="false" selection-start-line="434" selection-start-column="13" selection-end-line="434" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Suit/suit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -973,6 +863,113 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMTP_Email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index_Control/index_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Browsers_Utils/Url_Util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/index_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="77" column="36" lean-forward="true" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Browsers_Utils/Browser_Util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="80" column="55" lean-forward="true" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Suit/suit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Suit/Test_Report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="329" column="13" lean-forward="true" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9581#9587#1" expanded="true" />
+            <element signature="e#9646#9652#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Browsers_Utils/Message_Util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Browsers_Utils/Alert_Message_Util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register_Control/register_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/register_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

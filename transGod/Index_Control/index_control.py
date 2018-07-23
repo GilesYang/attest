@@ -162,3 +162,22 @@ class IndexControl(object):
         self.footer_center_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/ul/li[4]/a"
         self.util.click_xpath(self.footer_center_xpath)
 
+    def footer_media(self):
+        self.footer_media_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/ul/li[3]/a"
+        self.util.click_xpath(self.footer_media_xpath)
+
+    def footer_join(self):
+        self.footer_join_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/ul/li[2]/a"
+        self.util.click_xpath(self.footer_join_xpath)
+
+    def footer_message(self):
+        self.footer_message_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/ul/li[1]/a"
+        self.util.click_xpath(self.footer_message_xpath)
+
+    def footer_TMXMall(self):
+        self.footer_TMX_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/p[2]/a[1]"
+        self.util.click_xpath(self.footer_TMX_xpath)
+
+    def footer_Ucloud(self):
+        self.footer_ucloud_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/p[2]/a[2]"
+        self.util.click_xpath(self.footer_ucloud_xpath)

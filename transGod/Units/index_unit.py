@@ -451,3 +451,77 @@ class IndexUnit(unittest.TestCase):
         else:
             print(Exceptions)
 
+    def test_footer_media(self):
+        """footer跳转url-media"""
+        try:
+            self.index.footer_media()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_footer_join(self):
+        """footer跳转url-join"""
+        try:
+            self.index.footer_join()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.JOIN_US_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_footer_message(self):
+        """footer跳转url-message"""
+        try:
+            self.index.footer_message()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.MESSAGE_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_footer_TMAXMall(self):
+        """footer跳转url-TMAXMall"""
+        try:
+            self.index.footer_TMXMall()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.TMXMALL_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_footer_Ucloud(self):
+        """footer跳转url-Ucloud"""
+        try:
+            self.index.footer_Ucloud()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.UCLOUD_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)

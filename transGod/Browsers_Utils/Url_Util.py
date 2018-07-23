@@ -9,7 +9,9 @@ class Url(object):
 
     TEAM_LOGIN_URL = "http://team.transgod.cn/cooperate/user/login"
 
-    TRADOS_URL = "http://team.transgod.cn/trados"
+    TEAM_TRADOS_URL = "http://team.transgod.cn/trados"
+
+    TRADOS_URL = "https://transgod.cn/trados"
 
     TRANSTEXT_URL = "https://transgod.cn/opt/trans?type=text"
 
@@ -42,6 +44,14 @@ class Url(object):
     WANFANG_URL = "http://med.wanfangdata.com.cn/"
 
     TAIMEI_URL = "https://www.mobilemd.cn/"
+
+    JOIN_US_URL = "https://intercom.help/transgod/%E4%BA%BA%E6%89%8D%E6%8B%9B%E8%81%98"
+
+    MESSAGE_URL = "https://intercom.help/transgod"
+
+    TMXMALL_URL = "https://www.tmxmall.com/"
+
+    UCLOUD_URL = "https://www.ucloud.cn/"
 
     footer_list = ["http://atman.ai/", "https://intercom.help/transgod",
                    "https://intercom.help/transgod/%E5%AA%92%E4%BD%93%E6%8A%A5%E9%81%93",

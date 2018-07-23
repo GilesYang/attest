@@ -125,11 +125,14 @@ class Util(object):
     def text_partial(self, partial):
         return self.find_partial(partial).text
 
-    def get_attribute_id(self, id):
-        self.driver.find_element_by_id(id).get_attribute()
+    def get_attribute_id(self, id, attribute):
+        self.find_id(id).get_attribute(attribute)
 
-    def get_attribute_xpath(self, xpath):
-        self.driver.find_element_by_xpath(xpath).get_attribute()
+    def get_attribute_xpath(self, xpath, attribute):
+        self.find_xpath(xpath).get_attribute(attribute)
+
+    def get_attribute_selector(self, selector, attribute):
+        self.find_selector(selector).get_attribute(attribute)
 
     def switch_to_frame_id(self, id):
         self.driver.switch_to_frame(self.find_id(id))
