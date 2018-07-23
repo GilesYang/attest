@@ -1,8 +1,9 @@
 from Browsers_Utils import Browser_Util, Url_Util
 
 class IndexControl(object):
-    def __init__(self, util):
+    def __init__(self, util, url):
         self.util = util
+        self.url = url
 
     def topbar_personal(self):
         self.personal_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(1) > a'
@@ -62,13 +63,13 @@ class IndexControl(object):
         self.util.click_selector(self.engine_personal_selector)
 
     def topbar_personal_login(self):
-        self.login_personal_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(1) > a'
+        self.login_personal_xpath = '/html/body/div[1]/header/section/nav/ul/li[1]/a'
         self.login_button_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
         self.util.click_selector(self.login_button_selector)
         self.util.login_personal(u'15011554977', u'123456')
-        if self.util.current_url() == 'https://transgod.cn':
-            print("The Url is True!")
-            self.util.click_selector(self.login_personal_selector)
+        if self.util.current_url() == self.url.HOMEPAGE_URL:
+            print(self.url.HOMEPAGE_URL)
+            self.util.click_xpath(self.login_personal_xpath)
         else:
             print("The Url is Error!")
 
@@ -76,8 +77,8 @@ class IndexControl(object):
         self.login_team_selector = 'body > div.index-box > header > section > nav > ul > li:nth-child(2) > a'
         self.util.click_selector(self.login_team_selector)
         self.util.login_team(u'15011554977', u'123456')
-        if self.util.current_url() == 'https://transgod.cn':
-            print("The Url is Ture!")
+        if self.util.current_url() == self.url.HOMEPAGE_URL:
+            print(self.url.HOMEPAGE_URL)
             self.util.click_selector(self.login_team_selector)
         else:
             print("The Url is Error!")
@@ -87,8 +88,8 @@ class IndexControl(object):
         self.login_button_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
         self.util.click_selector(self.login_button_selector)
         self.util.login_personal(u'15011554977', u'123456')
-        if self.util.current_url() == 'https://transgod.cn':
-            print("The Url is True!")
+        if self.util.current_url() == self.url.HOMEPAGE_URL:
+            print(self.url.HOMEPAGE_URL)
             self.util.click_selector(self.trans_selector)
         else:
             print("The Url is Error!")
@@ -98,25 +99,66 @@ class IndexControl(object):
         self.login_button_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
         self.util.click_selector(self.login_button_selector)
         self.util.login_personal(u'15011554977', u'123456')
-        if self.util.current_url() == 'https://transgod':
-            print("The Url is True!")
+        if self.util.current_url() == self.url.HOMEPAGE_URL:
+            print(self.url.HOMEPAGE_URL)
             self.util.click_selector(self.trans_file_selector)
         else:
             print("The Url is Error!")
 
     def personal_cat_login(self):
-        self.personal_cat_selector = 'body > div.index-box > div > section.section-box.support.bg-gray > div > div:nth-child(3) > p > a > strong'
+        self.personal_cat_xpath = '/html/body/div[1]/div/section[2]/div/div[3]/p/a'
         self.login_button_selector = 'body > div.index-box > header > section > div.sign-in-group.pull-right.clearfix > a.trans-btn.size-m.pull-left'
         self.util.click_selector(self.login_button_selector)
         self.util.login_personal(u'111', u'111')
-        if self.util.current_url() == 'https://transgod.cn':
+        if self.util.current_url() == self.url.HOMEPAGE_URL:
             print("The Url is True!")
-            self.util.click_selector(self.personal_cat_selector)
+            self.util.click_xpath(self.personal_cat_xpath)
         else:
             print("The Url is Error!")
 
+    def team_cat_login(self):
+        self.team_cat_xpath = '/html/body/div[1]/div/section[2]/div/div[4]/p/a'
+        self.team_logo_selector = '#webapp > div > div:nth-child(1) > div:nth-child(2) > header > div > div > a > span'
+        self.util.click_xpath(self.team_cat_xpath)
+        self.util.login_team(u'15011554977', u'111')
+        self.util.click_selector(self.team_logo_selector)
+        self.current_window = self.util.current_window()
+        self.switch_window = self.util.switch_to_windows(self.current_window)
+        self.util.click_selector(self.team_cat_xpath)
 
+    def index_link_johnson(self):
+        self.johnson_selector = 'body > div.index-box > div > section.section-box.client > div:nth-child(2) > a:nth-child(1) > i'
+        self.util.click_selector(self.johnson_selector)
 
+    def index_link_news(self):
+        self.news_selector = 'body > div.index-box > div > section.section-box.client > div:nth-child(2) > a:nth-child(2) > i'
+        self.util.click_selector(self.news_selector)
 
+    def index_link_peking(self):
+        self.peking_selector = 'body > div.index-box > div > section.section-box.client > div:nth-child(2) > a:nth-child(3) > i'
+        self.util.click_selector(self.peking_selector)
 
+    def index_link_tsinghua(self):
+        self.tsinghua_selector = 'body > div.index-box > div > section.section-box.client > div:nth-child(2) > a:nth-child(4) > i'
+        self.util.click_selector(self.tsinghua_selector)
+
+    def index_link_shenrong(self):
+        self.shenrong_selector = 'body > div.index-box > div > section.section-box.client > div.client-list.multiple-line > a:nth-child(1) > i'
+        self.util.click_selector(self.shenrong_selector)
+
+    def index_link_wanfang(self):
+        self.wanfang_selector = 'body > div.index-box > div > section.section-box.client > div.client-list.multiple-line > a:nth-child(2) > i'
+        self.util.click_selector(self.wanfang_selector)
+
+    def index_link_taimei(self):
+        self.taimei_selector = 'body > div.index-box > div > section.section-box.client > div.client-list.multiple-line > a:nth-child(3) > i'
+        self.util.click_selector(self.taimei_selector)
+
+    def footer_atman(self):
+        self.footer_atman_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/ul/li[5]/a"
+        self.util.click_xpath(self.footer_atman_xpath)
+
+    def footer_center(self):
+        self.footer_center_xpath = "/html/body/div[1]/footer/section[1]/div/div[1]/ul/li[4]/a"
+        self.util.click_xpath(self.footer_center_xpath)
 

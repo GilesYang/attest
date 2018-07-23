@@ -14,7 +14,7 @@ class IndexUnit(unittest.TestCase):
     def setUpClass(self):
         self.util = Browser_Util.Util()
         self.url = Url_Util.Url()
-        self.index = index_control.IndexControl(self.util)
+        self.index = index_control.IndexControl(self.util, self.url)
 
     def setUp(self):
         self.util.browser_start(self.url.HOMEPAGE_URL)
@@ -216,7 +216,7 @@ class IndexUnit(unittest.TestCase):
             # self.current_url = 'http://team.transgod.cn/cooperate/user/login'
             self.assertEqual(self.new_url, self.url.TEAM_LOGIN_URL)
         except Exception as msg:
-            print(msg)
+            raise
         else:
             print(Exceptions)
 
@@ -294,10 +294,160 @@ class IndexUnit(unittest.TestCase):
             self.util.switch_to_windows(self.current_window)
             self.new_url = self.util.current_url()
             print(self.new_url)
-            self.current_url = ''
-            pass
-
+            self.assertEqual(self.new_url, self.url.PERSONAL_PROJECT_URL)
         except Exception as msg:
             print(msg)
         else:
             print(Exceptions)
+
+    def test_team_cat_login(self):
+        """登陆状态下,点击团队版Cat跳转url"""
+        try:
+            self.index.team_cat_login()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            self.assertEqual(self.new_url, self.url.TEAM_LOGIN_PROJECT_URL)
+        except Exception as msg:
+            print(msg)
+        else:
+            print(Exceptions)
+
+    def test_index_johnson(self):
+        """footer链接第一行跳转url-johnson"""
+        try:
+            self.index.index_link_johnson()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(
+                self.new_url
+            )
+            self.assertEqual(self.new_url, self.url.JOHNSON_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_index_news(self):
+        """footer第一行跳转url-news"""
+        try:
+            self.index.index_link_news()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.NEWS_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_index_peking(self):
+        """footer第一行跳转url-peking"""
+        try:
+            self.index.index_link_peking()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.PEKING_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_index_tsinghua(self):
+        """footer第一行跳转url-tsinghua"""
+        try:
+            self.index.index_link_tsinghua()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.TSINGHUA_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_index_shenrong(self):
+        """footer第二行跳转url-shenrong"""
+        try:
+            self.index.index_link_shenrong()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.SHENRONG_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_index_wanfang(self):
+        """footer第二行跳转url-wanfang"""
+        try:
+            self.index.index_link_wanfang()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            self.assertEqual(self.new_url, self.url.WANFANG_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_index_taimei(self):
+        """footer第二行跳转url-taimei"""
+        try:
+            self.index.index_link_taimei()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.TAIMEI_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_footer_atman(self):
+        """footer跳转url-atman"""
+        try:
+            self.index.footer_atman()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.ATMAN_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+
+    def test_footer_center(self):
+        """footer跳转url-help center"""
+        try:
+            self.index.footer_center()
+            self.util.timeImplay(10)
+            self.current_window = self.util.current_window()
+            self.util.switch_to_windows(self.current_window)
+            self.new_url = self.util.current_url()
+            print(self.new_url)
+            self.assertEqual(self.new_url, self.url.HELP_URL)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
