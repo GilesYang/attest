@@ -27,5 +27,28 @@
             Ant
             Maven
             Tomcat+jdk(jdk version == 1.8.0)
-            
+      第三方库:
+      	selenium.webdriver
+		selenium.webdriver.common.by.By
+		selenium.webdriver.common.key.Keys
+		selenium.webdriver.action_chains.ActionChains
+		selenium.webdriver.support.excepted_conditions
+		selenium.webdriver.support.wait.WebDriverWait
+		selenium.webdriver.support.select.Select
+		htmltestrunner.HTMLTestRunner
+		unittest.testcase
+		unittest.MakeSuite
+		unittest.TestSuite
+		import smtplib
+		email.mime.multipart
+		email.mime.text
+		email.mime.text.MIMEText
+		email.mime.multipart.MIMEMultipart
+		email.mime.application.MIMEApplication
+		os
+		datetime
+	google_chrome_options
+	enum.IntEnum
+	time.sleep
+	
         
