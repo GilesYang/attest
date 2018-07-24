@@ -13,7 +13,7 @@ class Util(object):
     def browser_start(self, url):
         self.option = webdriver.ChromeOptions()
         self.option.add_argument('headless')
-        self.driver = webdriver.Chrome(chrome_options=self.option)
+        self.driver = webdriver.Chrome(chrome_options = self.option)
         self.driver.get(url)
         self.driver.maximize_window()
 

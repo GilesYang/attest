@@ -1,16 +1,16 @@
 import unittest
 import HTMLTestRunner
 import os
-from Units import index_unit, register_unit
-# from Firefox_Utils import Email
+from Units import index_unit, register_unit, login_unit
 
 
 class Report(object):
     def suit(self):
         self.suit = unittest.TestSuite()
         # 加入unittest单元测试类
-        # self.suit.addTest(unittest.makeSuite(index_unit.IndexUnit))
+        self.suit.addTest(unittest.makeSuite(index_unit.IndexUnit))
         self.suit.addTest(unittest.makeSuite(register_unit.RegisterUnit))
+        self.suit.addTest(unittest.makeSuite(login_unit.LoginUnit))
         # 出报告
         self.files = os.getcwd()+"/Test_Report.html"
         self.filename = open(self.files, 'wb')
