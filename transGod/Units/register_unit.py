@@ -1,12 +1,8 @@
 import unittest
 from Browsers_Utils import Browser_Util, Url_Util, Alert_Message_Util, Message_Util
 from Register_Control import register_control
-import time
-
-
 
 # global volumes
-
 Exceptions = "No Exceptions"
 
 
@@ -48,7 +44,7 @@ class RegisterUnit(unittest.TestCase):
         """mobile == null"""
         self.alert_text_selector = '#webapp > div > div.uc-bg > div.uc-bg-top > div.uc-reg-box > div.reg-tel-box > div.reg-form > form > div:nth-child(1) > div.tooltip.top.toptel > div.tooltip-inner'
         try:
-            self.register.usernameInput_null()
+            self.register.mobile_input_null()
             self.util.timeImplay(10)
             self.alert_text = self.util.text_selector(self.alert_text_selector)
             self.assertEqual(self.alert_text, self.alert_message.mobile_null)
@@ -58,9 +54,9 @@ class RegisterUnit(unittest.TestCase):
             print(Exceptions)
 
     def test_userNotOnlyNumber(self):
-        """Username Input Not Only Numbers"""
+        """Mobile Input Not Only Numbers"""
         try:
-            self.register.usernameInput(self.contents.username_input_NotOnlyNumbers)
+            self.register.mobile_input(self.contents.username_input_NotOnlyNumbers)
             self.util.timeImplay(10)
             self.alert_xpath = '//*[@id="webapp"]/div/div[3]/div[2]/div[2]/div[1]/div[3]/form/div[1]/div[2]/div[2]'
             self.alert_text = self.util.text_xpath(self.alert_xpath)
@@ -72,14 +68,39 @@ class RegisterUnit(unittest.TestCase):
             print(Exceptions)
 
     def test_userNumber(self):
-        """Username Input Not Numbers"""
+        """Mobile Input Not Numbers"""
         try:
-            self.register.usernameInput(self.contents.username_input_NoNumber)
+            self.register.mobile_input(self.contents.username_input_NoNumber)
             self.util.timeImplay(10)
             self.alert_xpath = '//*[@id="webapp"]/div/div[3]/div[2]/div[2]/div[1]/div[3]/form/div[1]/div[2]/div[2]'
             self.alert_text = self.util.text_xpath(self.alert_xpath)
             print(self.alert_text)
             self.assertEqual(self.alert_text, self.alert_message.mobile_null)
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_rerification_null(self):
+        """输入未注册过的手机号码,验证验证码输入框"""
+        try:
+            self.alert_selector = '#webapp > div > div.uc-bg > div.uc-bg-top > div.uc-reg-box > div.reg-tel-box > div.reg-form > form > div.form-group.reg-telverifycode > div.tooltip.top.topregcode > div.tooltip-inner'
+
+            self.register.mobile_uesrname_Input(self.contents.mobile_input_register)
+            self.util.timeImplay(10)
+            self.alert_text = self.util.text_selector(self.alert_selector)
+            print(self.alert_text)
+            self.assertEqual(self.alert_text, self.alert_message.Verification_not_null)
+            pass
+        except Exception as msg:
+            raise
+        else:
+            print(Exceptions)
+
+    def test_mobile_registered(self):
+        """输入已经注册的手机号码,验证alert text"""
+        try:
+            pass
         except Exception as msg:
             raise
         else:

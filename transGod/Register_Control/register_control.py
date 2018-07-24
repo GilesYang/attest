@@ -10,11 +10,11 @@ class RegisterControl(object):
         self.logo_selector = '#webapp > div > div:nth-child(1) > div > header > div > div.navbar-header > a > span'
         self.util.click_selector(self.logo_selector)
 
-    def usernameInput_null(self):
+    def mobile_input_null(self):
         self.login_button_selector = '#regtelBtn'
         self.util.click_selector(self.login_button_selector)
 
-    def usernameInput(self, message):
+    def mobile_input(self, message):
         # volumes
         self.mobile_input_selector = '#reg-tel'
         self.username_input_selector = '#reg-tel-username'
@@ -23,4 +23,14 @@ class RegisterControl(object):
         self.util.send_keys_selector(self.mobile_input_selector, message)
         self.util.click_selector(self.username_input_selector)
         self.util.click_selector(self.login_button_selector)
+
+    def mobile_uesrname_Input(self, mobile):
+        self.mobile_input_selector = '#reg-tel'
+        self.username_input_selector = '#reg-tel-username'
+        self.login_button_selector = '#regtelBtn'
+
+        self.util.send_keys_selector(self.mobile_input_selector, mobile)
+        self.util.click_selector(self.login_button_selector)
+
+
 

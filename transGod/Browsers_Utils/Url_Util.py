@@ -60,4 +60,4 @@ class Url(object):
 
     reverse_list = footer_list.reverse()
 
-    friend_list = ["https://www.tmxmall.com/", "https://www.ucloud.cn/"]
+    friendly_list = ["https://www.tmxmall.com/", "https://www.ucloud.cn/"]

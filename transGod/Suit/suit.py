@@ -17,7 +17,7 @@ class Report(object):
         self.runner = HTMLTestRunner.HTMLTestRunner(
             stream=self.filename,
             title=u"TransGod Personal Test Report",
-            description="Selenium")
+            description="http://atman.ai/")
         self.runner.run(self.suit)
 
 if __name__ == '__main__':
