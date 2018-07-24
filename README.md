@@ -14,9 +14,10 @@
         驱动数据方法
         逻辑操作方法
       Units:
-        集成展示,隔离TestCase
+        集成展示,unittest隔离TestCase
       Suit:
         视图层:
+	    HTMLTestRunner
             百度 Echarts
             html、css、xml、yaml
       SMTP_Server:
